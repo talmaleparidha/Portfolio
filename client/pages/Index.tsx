@@ -78,7 +78,7 @@ export default function Index() {
         <div className="grid gap-6">
           <ExperienceItem
             company="Panasonic Energy of North America - Gigafactory"
-            role="Production & Logistics Analyst (Intern)"
+            role="Production & Operations Optimization Intern"
             location="Sparks, NV"
             period="May 2025 – Present"
             points={[
