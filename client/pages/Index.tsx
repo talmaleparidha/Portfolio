@@ -98,6 +98,17 @@ export default function Index() {
             ]}
           />
           <ExperienceItem
+            company="FinIQ Consulting | B2B Financial Engineering Firm"
+            role="Application Consultant"
+            location="Pune, India"
+            period="July 2023 – July 2024"
+            points={[
+              "Designed and implemented data-driven solutions for 7 global investment banks using Microsoft SQL Server, optimizing trade workflows through UAT and translating business requirements into technical specifications.",
+              "Managed client relationships across Europe, Singapore, Malaysia, and Taiwan, achieving a 98% client satisfaction rate and improving operational efficiency with tailored financial engineering solutions.",
+              "Led a cross-functional team of 6 to build an employee data management platform, improving efficiency by 20% via process optimization.",
+            ]}
+          />
+          <ExperienceItem
             company="Mitacs Globalink – Dalhousie University"
             role="Research Intern"
             location="Nova Scotia, Canada"
