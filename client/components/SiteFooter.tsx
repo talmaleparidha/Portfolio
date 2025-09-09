@@ -5,9 +5,6 @@ export function SiteFooter() {
         <p>
           © {new Date().getFullYear()} Paridha Talmale. All rights reserved.
         </p>
-        <p className="text-center md:text-right">
-          Open to roles: Product / Project / Program Manager, Business Analyst
-        </p>
       </div>
     </footer>
   );
