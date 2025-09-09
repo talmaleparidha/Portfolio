@@ -2,16 +2,31 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { GraduationCap, MapPin, Mail, Phone, TrendingUp, Timer, Briefcase, Building2, CheckCircle2, ExternalLink } from "lucide-react";
+import {
+  GraduationCap,
+  MapPin,
+  Mail,
+  Phone,
+  TrendingUp,
+  Timer,
+  Briefcase,
+  Building2,
+  CheckCircle2,
+  ExternalLink,
+} from "lucide-react";
 
-const RESUME_URL = "https://cdn.builder.io/o/assets%2F17db03806b94418b9f29ad4f92804c87%2Ffc71e2920afa4ffbbbf2d972e367b64f?alt=media&token=62cbc3dd-7800-440b-8e6c-c66d8e00a576&apiKey=17db03806b94418b9f29ad4f92804c87";
+const RESUME_URL =
+  "https://cdn.builder.io/o/assets%2F17db03806b94418b9f29ad4f92804c87%2Ffc71e2920afa4ffbbbf2d972e367b64f?alt=media&token=62cbc3dd-7800-440b-8e6c-c66d8e00a576&apiKey=17db03806b94418b9f29ad4f92804c87";
 const LINKEDIN_URL = "https://www.linkedin.com/in/paridha-talmale/";
 
 export default function Index() {
   return (
     <div className="relative">
       {/* Hero */}
-      <section id="about" className="relative overflow-hidden bg-gradient-to-br from-primary/5 via-accent/10 to-transparent">
+      <section
+        id="about"
+        className="relative overflow-hidden bg-gradient-to-br from-primary/5 via-accent/10 to-transparent"
+      >
         <div className="absolute inset-0 -z-10 [background:radial-gradient(60rem_60rem_at_40%_-10%,hsl(var(--primary)/0.12),transparent)]" />
         <div className="container py-16 md:py-24">
           <div className="grid gap-10 md:grid-cols-2 md:items-center">
@@ -23,22 +38,36 @@ export default function Index() {
                 Paridha Talmale
               </h1>
               <p className="mt-4 text-lg md:text-xl text-muted-foreground max-w-2xl">
-                Master's in Engineering Management at Purdue (GPA 3.83). I drive innovation at the intersection of product, data, and operations—turning insights into impact through cross-functional leadership and execution.
+                Master's in Engineering Management at Purdue (GPA 3.83). I drive
+                innovation at the intersection of product, data, and
+                operations—turning insights into impact through cross-functional
+                leadership and execution.
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
                 <a href={RESUME_URL} target="_blank" rel="noreferrer noopener">
                   <Button size="lg">Download Resume</Button>
                 </a>
-                <a href={LINKEDIN_URL} target="_blank" rel="noreferrer noopener">
+                <a
+                  href={LINKEDIN_URL}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
                   <Button size="lg" variant="outline" className="gap-2">
                     <ExternalLink className="size-4" /> View LinkedIn
                   </Button>
                 </a>
               </div>
               <div className="mt-6 flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
-                <span className="inline-flex items-center gap-2"><MapPin className="size-4" /> Reno, Nevada</span>
-                <span className="inline-flex items-center gap-2"><GraduationCap className="size-4" /> Purdue University</span>
-                <span className="inline-flex items-center gap-2"><TrendingUp className="size-4" /> Data-driven, operations-focused</span>
+                <span className="inline-flex items-center gap-2">
+                  <MapPin className="size-4" /> Reno, Nevada
+                </span>
+                <span className="inline-flex items-center gap-2">
+                  <GraduationCap className="size-4" /> Purdue University
+                </span>
+                <span className="inline-flex items-center gap-2">
+                  <TrendingUp className="size-4" /> Data-driven,
+                  operations-focused
+                </span>
               </div>
             </div>
             <Card className="md:ml-auto">
@@ -48,19 +77,27 @@ export default function Index() {
               <CardContent className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="rounded-lg border p-4">
                   <div className="text-3xl font-extrabold">$3M+</div>
-                  <p className="text-sm text-muted-foreground">Excess inventory identified via real-time dashboard</p>
+                  <p className="text-sm text-muted-foreground">
+                    Excess inventory identified via real-time dashboard
+                  </p>
                 </div>
                 <div className="rounded-lg border p-4">
                   <div className="text-3xl font-extrabold">75% ↓</div>
-                  <p className="text-sm text-muted-foreground">Manual tracking effort eliminated (Palantir + WMS)</p>
+                  <p className="text-sm text-muted-foreground">
+                    Manual tracking effort eliminated (Palantir + WMS)
+                  </p>
                 </div>
                 <div className="rounded-lg border p-4">
                   <div className="text-3xl font-extrabold">20% ↑</div>
-                  <p className="text-sm text-muted-foreground">Efficiency improvement via fixture design optimization</p>
+                  <p className="text-sm text-muted-foreground">
+                    Efficiency improvement via fixture design optimization
+                  </p>
                 </div>
                 <div className="rounded-lg border p-4">
                   <div className="text-3xl font-extrabold">18% ↑</div>
-                  <p className="text-sm text-muted-foreground">Forecast accuracy boost; 75% cost reduction</p>
+                  <p className="text-sm text-muted-foreground">
+                    Forecast accuracy boost; 75% cost reduction
+                  </p>
                 </div>
               </CardContent>
             </Card>
@@ -226,26 +263,47 @@ export default function Index() {
         <div className="grid gap-6 md:grid-cols-2">
           <Card>
             <CardHeader>
-              <CardTitle className="flex items-center gap-2"><GraduationCap className="size-5" /> Purdue University</CardTitle>
+              <CardTitle className="flex items-center gap-2">
+                <GraduationCap className="size-5" /> Purdue University
+              </CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="font-medium">Master’s in Engineering Management (GPA: 3.83 / 4.00)</p>
-              <p className="text-sm text-muted-foreground">Aug 2024 – May 2026 · West Lafayette, Indiana</p>
+              <p className="font-medium">
+                Master’s in Engineering Management (GPA: 3.83 / 4.00)
+              </p>
+              <p className="text-sm text-muted-foreground">
+                Aug 2024 – May 2026 · West Lafayette, Indiana
+              </p>
               <ul className="mt-3 list-disc pl-5 text-sm text-muted-foreground space-y-1">
-                <li>Coursework: Project Management, Strategic Management, Accounting for Managers, Marketing Management</li>
+                <li>
+                  Coursework: Project Management, Strategic Management,
+                  Accounting for Managers, Marketing Management
+                </li>
               </ul>
             </CardContent>
           </Card>
           <Card>
             <CardHeader>
-              <CardTitle className="flex items-center gap-2"><GraduationCap className="size-5" /> College of Engineering Pune</CardTitle>
+              <CardTitle className="flex items-center gap-2">
+                <GraduationCap className="size-5" /> College of Engineering Pune
+              </CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="font-medium">B.Tech Mechanical Engineering, Honors in Automotive Technology (GPA: 3.82 / 4.00)</p>
-              <p className="text-sm text-muted-foreground">Aug 2019 – Aug 2023 · Pune, India</p>
+              <p className="font-medium">
+                B.Tech Mechanical Engineering, Honors in Automotive Technology
+                (GPA: 3.82 / 4.00)
+              </p>
+              <p className="text-sm text-muted-foreground">
+                Aug 2019 – Aug 2023 · Pune, India
+              </p>
               <ul className="mt-3 list-disc pl-5 text-sm text-muted-foreground space-y-1">
-                <li>Coursework: EVs, Mechanical Design, Project Planning, Data Analytics, Design Thinking</li>
-                <li>Member, School Council of Mechanical & Materials Engineering</li>
+                <li>
+                  Coursework: EVs, Mechanical Design, Project Planning, Data
+                  Analytics, Design Thinking
+                </li>
+                <li>
+                  Member, School Council of Mechanical & Materials Engineering
+                </li>
               </ul>
             </CardContent>
           </Card>
@@ -259,24 +317,37 @@ export default function Index() {
         <div className="rounded-2xl border p-8 md:p-12 bg-card">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
             <div>
-              <h2 className="text-2xl md:text-3xl font-bold">Let’s build impactful products</h2>
+              <h2 className="text-2xl md:text-3xl font-bold">
+                Let’s build impactful products
+              </h2>
               <p className="text-muted-foreground mt-2 max-w-2xl">
-                I love solving complex operational and product problems with data-driven execution.
+                I love solving complex operational and product problems with
+                data-driven execution.
               </p>
               <div className="mt-4 flex flex-wrap gap-3 text-sm text-muted-foreground">
-                <span className="inline-flex items-center gap-2"><MapPin className="size-4" /> Reno, Nevada</span>
-                <span className="inline-flex items-center gap-2"><Timer className="size-4" /> Graduating May 2026</span>
+                <span className="inline-flex items-center gap-2">
+                  <MapPin className="size-4" /> Reno, Nevada
+                </span>
+                <span className="inline-flex items-center gap-2">
+                  <Timer className="size-4" /> Graduating May 2026
+                </span>
               </div>
             </div>
             <div className="flex flex-col gap-3 min-w-[260px]">
               <a href="mailto:talmaleparidha@gmail.com">
-                <Button className="w-full gap-2"><Mail className="size-4" /> talmaleparidha@gmail.com</Button>
+                <Button className="w-full gap-2">
+                  <Mail className="size-4" /> talmaleparidha@gmail.com
+                </Button>
               </a>
               <a href="tel:+17657673025">
-                <Button variant="outline" className="w-full gap-2"><Phone className="size-4" /> (+1) 765-767-3025</Button>
+                <Button variant="outline" className="w-full gap-2">
+                  <Phone className="size-4" /> (+1) 765-767-3025
+                </Button>
               </a>
               <a href={LINKEDIN_URL} target="_blank" rel="noreferrer noopener">
-                <Button variant="ghost" className="w-full gap-2"><ExternalLink className="size-4" /> LinkedIn</Button>
+                <Button variant="ghost" className="w-full gap-2">
+                  <ExternalLink className="size-4" /> LinkedIn
+                </Button>
               </a>
             </div>
           </div>
@@ -286,13 +357,29 @@ export default function Index() {
   );
 }
 
-function ExperienceItem({ company, role, location, period, points }: { company: string; role: string; location: string; period: string; points: string[]; }) {
+function ExperienceItem({
+  company,
+  role,
+  location,
+  period,
+  points,
+}: {
+  company: string;
+  role: string;
+  location: string;
+  period: string;
+  points: string[];
+}) {
   return (
     <Card>
       <CardHeader>
         <CardTitle className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
-          <span className="inline-flex items-center gap-2"><Building2 className="size-5" /> {company}</span>
-          <span className="text-sm text-muted-foreground">{location} · {period}</span>
+          <span className="inline-flex items-center gap-2">
+            <Building2 className="size-5" /> {company}
+          </span>
+          <span className="text-sm text-muted-foreground">
+            {location} · {period}
+          </span>
         </CardTitle>
         <p className="text-sm text-muted-foreground">{role}</p>
       </CardHeader>
@@ -310,13 +397,29 @@ function ExperienceItem({ company, role, location, period, points }: { company: 
   );
 }
 
-function ProjectCard({ title, role, period, location, bullets }: { title: string; role: string; period: string; location: string; bullets: string[]; }) {
+function ProjectCard({
+  title,
+  role,
+  period,
+  location,
+  bullets,
+}: {
+  title: string;
+  role: string;
+  period: string;
+  location: string;
+  bullets: string[];
+}) {
   return (
     <Card>
       <CardHeader>
         <CardTitle className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
-          <span className="inline-flex items-center gap-2"><Briefcase className="size-5" /> {title}</span>
-          <span className="text-sm text-muted-foreground">{location} · {period}</span>
+          <span className="inline-flex items-center gap-2">
+            <Briefcase className="size-5" /> {title}
+          </span>
+          <span className="text-sm text-muted-foreground">
+            {location} · {period}
+          </span>
         </CardTitle>
         <p className="text-sm text-muted-foreground">{role}</p>
       </CardHeader>

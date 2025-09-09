@@ -3,7 +3,8 @@ import { cn } from "@/lib/utils";
 import { Link } from "react-router-dom";
 import { Linkedin } from "lucide-react";
 
-const RESUME_URL = "https://cdn.builder.io/o/assets%2F17db03806b94418b9f29ad4f92804c87%2Ffc71e2920afa4ffbbbf2d972e367b64f?alt=media&token=62cbc3dd-7800-440b-8e6c-c66d8e00a576&apiKey=17db03806b94418b9f29ad4f92804c87";
+const RESUME_URL =
+  "https://cdn.builder.io/o/assets%2F17db03806b94418b9f29ad4f92804c87%2Ffc71e2920afa4ffbbbf2d972e367b64f?alt=media&token=62cbc3dd-7800-440b-8e6c-c66d8e00a576&apiKey=17db03806b94418b9f29ad4f92804c87";
 const LINKEDIN_URL = "https://www.linkedin.com/in/paridha-talmale/";
 
 export function SiteHeader() {
@@ -17,9 +18,11 @@ export function SiteHeader() {
   ];
 
   return (
-    <header className={cn(
-      "sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60",
-    )}>
+    <header
+      className={cn(
+        "sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60",
+      )}
+    >
       <div className="container flex h-16 items-center justify-between">
         <Link to="/" className="font-extrabold tracking-tight">
           <span className="text-primary">Paridha</span>
@@ -27,7 +30,11 @@ export function SiteHeader() {
         </Link>
         <nav className="hidden md:flex items-center gap-6 text-sm">
           {navItems.map((item) => (
-            <a key={item.href} href={item.href} className="text-muted-foreground hover:text-foreground transition-colors">
+            <a
+              key={item.href}
+              href={item.href}
+              className="text-muted-foreground hover:text-foreground transition-colors"
+            >
               {item.label}
             </a>
           ))}
