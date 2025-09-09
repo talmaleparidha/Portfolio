@@ -2,7 +2,6 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { cn } from "@/lib/utils";
 import { GraduationCap, MapPin, Mail, Phone, TrendingUp, Timer, Briefcase, Building2, CheckCircle2, ExternalLink } from "lucide-react";
 
 const RESUME_URL = "https://cdn.builder.io/o/assets%2F17db03806b94418b9f29ad4f92804c87%2F0154cd5ff62a47908f7f7cbbaafd56f3?alt=media&token=adbeab9b-9855-4af1-87bd-88791e0a3b25&apiKey=17db03806b94418b9f29ad4f92804c87";
