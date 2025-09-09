@@ -17,7 +17,6 @@ export default function Index() {
           <div className="grid gap-10 md:grid-cols-2 md:items-center">
             <div>
               <div className="flex flex-wrap items-center gap-3 mb-6">
-                <Badge className="text-xs">Open to Product / Project / Program Manager · Business Analyst roles</Badge>
                 <Badge variant="secondary">Graduating May 2026</Badge>
               </div>
               <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight">
@@ -251,7 +250,7 @@ export default function Index() {
             <div>
               <h2 className="text-2xl md:text-3xl font-bold">Let’s build impactful products</h2>
               <p className="text-muted-foreground mt-2 max-w-2xl">
-                I love solving complex operational and product problems with data-driven execution. I’m open to opportunities in Product/Project/Program Management and Business Analysis.
+                I love solving complex operational and product problems with data-driven execution.
               </p>
               <div className="mt-4 flex flex-wrap gap-3 text-sm text-muted-foreground">
                 <span className="inline-flex items-center gap-2"><MapPin className="size-4" /> Reno, Nevada</span>
