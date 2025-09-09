@@ -269,8 +269,8 @@ export default function Index() {
               </div>
             </div>
             <div className="flex flex-col gap-3 min-w-[260px]">
-              <a href="mailto:ptalmale@purdue.edu">
-                <Button className="w-full gap-2"><Mail className="size-4" /> ptalmale@purdue.edu</Button>
+              <a href="mailto:talmaleparidha@gmail.com">
+                <Button className="w-full gap-2"><Mail className="size-4" /> talmaleparidha@gmail.com</Button>
               </a>
               <a href="tel:+17657673025">
                 <Button variant="outline" className="w-full gap-2"><Phone className="size-4" /> (+1) 765-767-3025</Button>
