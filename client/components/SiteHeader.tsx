@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 import { Link } from "react-router-dom";
 import { Linkedin } from "lucide-react";
 
-const RESUME_URL = "https://cdn.builder.io/o/assets%2F17db03806b94418b9f29ad4f92804c87%2F0154cd5ff62a47908f7f7cbbaafd56f3?alt=media&token=adbeab9b-9855-4af1-87bd-88791e0a3b25&apiKey=17db03806b94418b9f29ad4f92804c87";
+const RESUME_URL = "https://cdn.builder.io/o/assets%2F17db03806b94418b9f29ad4f92804c87%2Ffc71e2920afa4ffbbbf2d972e367b64f?alt=media&token=62cbc3dd-7800-440b-8e6c-c66d8e00a576&apiKey=17db03806b94418b9f29ad4f92804c87";
 const LINKEDIN_URL = "https://www.linkedin.com/in/paridha-talmale/";
 
 export function SiteHeader() {
