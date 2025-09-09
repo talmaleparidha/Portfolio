@@ -11,7 +11,7 @@ export default function Index() {
   return (
     <div className="relative">
       {/* Hero */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-primary/5 via-accent/10 to-transparent">
+      <section id="about" className="relative overflow-hidden bg-gradient-to-br from-primary/5 via-accent/10 to-transparent">
         <div className="absolute inset-0 -z-10 [background:radial-gradient(60rem_60rem_at_40%_-10%,hsl(var(--primary)/0.12),transparent)]" />
         <div className="container py-16 md:py-24">
           <div className="grid gap-10 md:grid-cols-2 md:items-center">
