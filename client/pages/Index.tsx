@@ -31,7 +31,7 @@ export default function Index() {
         <div className="absolute inset-0 -z-10 [background:radial-gradient(60rem_60rem_at_40%_-10%,hsl(var(--primary)/0.12),transparent)]" />
         <div className="container py-16 md:py-24">
           <div className="grid gap-8 md:gap-16 md:grid-cols-2 md:items-start">
-            <div className="md:pr-6">
+            <div className="md:pr-8">
               <div className="flex flex-wrap items-center gap-3 mb-6">
                 <Badge variant="secondary">Graduating May 2026</Badge>
               </div>
