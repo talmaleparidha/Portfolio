@@ -108,7 +108,8 @@ export default function Index() {
               <Badge variant="outline">Panasonic Energy</Badge>
               <Badge variant="outline">BAE Systems</Badge>
               <Badge variant="outline">FinIQ Consulting</Badge>
-              <Badge variant="outline">Dalhousie University</Badge>
+              <Badge variant="outline">Mitacs Globalink - Canada</Badge>
+              <Badge variant="outline">Bayer Crop Science</Badge>
             </div>
           </div>
         </div>
