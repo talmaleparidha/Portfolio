@@ -102,7 +102,7 @@ export default function Index() {
               </CardContent>
             </Card>
           </div>
-          <div className="mt-8">
+          <div className="mt-8 rounded-xl border bg-card p-4 md:p-6 shadow-sm">
             <div className="flex flex-wrap items-center gap-3 text-sm">
               <span className="uppercase tracking-wider text-xs font-semibold text-muted-foreground/70">Worked with</span>
               <Badge variant="outline">Panasonic Energy</Badge>
