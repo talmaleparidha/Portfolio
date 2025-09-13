@@ -71,13 +71,13 @@ export default function Index() {
                 </span>
               </div>
               <div className="mt-6 rounded-xl border bg-card p-4 md:p-5 shadow-sm">
-                <div className="flex flex-nowrap items-center gap-3 text-sm overflow-x-auto">
+                <div className="flex flex-wrap items-center gap-3 text-sm">
                   <span className="uppercase tracking-wider text-xs font-semibold text-muted-foreground/70">Worked with</span>
-                  <Badge variant="outline" className="whitespace-nowrap">Panasonic Energy</Badge>
-                  <Badge variant="outline" className="whitespace-nowrap">BAE Systems</Badge>
-                  <Badge variant="outline" className="whitespace-nowrap">FinIQ Consulting</Badge>
-                  <Badge variant="outline" className="whitespace-nowrap">Mitacs Globalink - Canada</Badge>
-                  <Badge variant="outline" className="whitespace-nowrap">Bayer Crop Science</Badge>
+                  <Badge variant="outline">Panasonic Energy</Badge>
+                  <Badge variant="outline">BAE Systems</Badge>
+                  <Badge variant="outline">FinIQ Consulting</Badge>
+                  <Badge variant="outline">Mitacs Globalink - Canada</Badge>
+                  <Badge variant="outline">Bayer Crop Science</Badge>
                 </div>
               </div>
             </div>
