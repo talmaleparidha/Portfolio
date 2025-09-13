@@ -71,7 +71,7 @@ export default function Index() {
                 </span>
               </div>
             </div>
-            <div className="md:ml-auto flex flex-col items-center md:items-start gap-6">
+            <div className="md:ml-auto md:pl-4 flex flex-col items-center md:items-start gap-6">
               <img
                 src={PROFILE_URL}
                 alt="Paridha Talmale portrait"
