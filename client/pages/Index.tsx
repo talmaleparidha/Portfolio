@@ -102,6 +102,15 @@ export default function Index() {
               </CardContent>
             </Card>
           </div>
+          <div className="mt-8">
+            <div className="flex flex-wrap items-center gap-3 text-sm">
+              <span className="uppercase tracking-wider text-xs font-semibold text-muted-foreground/70">Worked with</span>
+              <Badge variant="outline">Panasonic Energy</Badge>
+              <Badge variant="outline">BAE Systems</Badge>
+              <Badge variant="outline">FinIQ Consulting</Badge>
+              <Badge variant="outline">Dalhousie University</Badge>
+            </div>
+          </div>
         </div>
       </section>
 
