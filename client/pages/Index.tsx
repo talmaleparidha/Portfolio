@@ -121,16 +121,6 @@ export default function Index() {
               </Card>
             </div>
           </div>
-          <div className="mt-8 rounded-xl border bg-card p-4 md:p-6 shadow-sm">
-            <div className="flex flex-nowrap items-center gap-3 text-sm overflow-x-auto">
-              <span className="uppercase tracking-wider text-xs font-semibold text-muted-foreground/70">Worked with</span>
-              <Badge variant="outline" className="whitespace-nowrap">Panasonic Energy</Badge>
-              <Badge variant="outline" className="whitespace-nowrap">BAE Systems</Badge>
-              <Badge variant="outline" className="whitespace-nowrap">FinIQ Consulting</Badge>
-              <Badge variant="outline" className="whitespace-nowrap">Mitacs Globalink - Canada</Badge>
-              <Badge variant="outline" className="whitespace-nowrap">Bayer Crop Science</Badge>
-            </div>
-          </div>
         </div>
       </section>
 
