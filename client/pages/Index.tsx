@@ -35,7 +35,7 @@ export default function Index() {
               <div className="flex flex-wrap items-center gap-3 mb-6">
                 <Badge variant="secondary">Graduating May 2026</Badge>
               </div>
-              <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight">
+              <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight md:whitespace-nowrap">
                 Paridha Talmale
               </h1>
               <p className="mt-4 text-lg md:text-xl text-muted-foreground max-w-2xl">
