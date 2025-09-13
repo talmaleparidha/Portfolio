@@ -18,6 +18,7 @@ import {
 const RESUME_URL =
   "https://cdn.builder.io/o/assets%2F17db03806b94418b9f29ad4f92804c87%2Ffc71e2920afa4ffbbbf2d972e367b64f?alt=media&token=62cbc3dd-7800-440b-8e6c-c66d8e00a576&apiKey=17db03806b94418b9f29ad4f92804c87";
 const LINKEDIN_URL = "https://www.linkedin.com/in/paridha-talmale/";
+const PROFILE_URL = "https://cdn.builder.io/api/v1/image/assets%2F17db03806b94418b9f29ad4f92804c87%2Fab736c5f55fc44db9444dd1b5f118631?format=webp&width=800";
 
 export default function Index() {
   return (
@@ -70,11 +71,18 @@ export default function Index() {
                 </span>
               </div>
             </div>
-            <Card className="md:ml-auto">
-              <CardHeader>
-                <CardTitle>Key Outcomes</CardTitle>
-              </CardHeader>
-              <CardContent className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="md:ml-auto flex flex-col items-center md:items-end gap-6">
+              <img
+                src={PROFILE_URL}
+                alt="Paridha Talmale portrait"
+                className="w-full max-w-sm rounded-2xl border shadow-md object-cover h-64 md:h-80"
+                loading="eager"
+              />
+              <Card className="w-full max-w-sm md:max-w-md">
+                <CardHeader>
+                  <CardTitle>Key Outcomes</CardTitle>
+                </CardHeader>
+                <CardContent className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="rounded-lg border p-4">
                   <div className="text-3xl font-extrabold">$3M+</div>
                   <p className="text-sm text-muted-foreground">
@@ -99,17 +107,18 @@ export default function Index() {
                     Forecast accuracy boost; 75% cost reduction
                   </p>
                 </div>
-              </CardContent>
-            </Card>
+                </CardContent>
+              </Card>
+            </div>
           </div>
           <div className="mt-8 rounded-xl border bg-card p-4 md:p-6 shadow-sm">
-            <div className="flex flex-wrap items-center gap-3 text-sm">
+            <div className="flex flex-nowrap items-center gap-3 text-sm overflow-x-auto">
               <span className="uppercase tracking-wider text-xs font-semibold text-muted-foreground/70">Worked with</span>
-              <Badge variant="outline">Panasonic Energy</Badge>
-              <Badge variant="outline">BAE Systems</Badge>
-              <Badge variant="outline">FinIQ Consulting</Badge>
-              <Badge variant="outline">Mitacs Globalink - Canada</Badge>
-              <Badge variant="outline">Bayer Crop Science</Badge>
+              <Badge variant="outline" className="whitespace-nowrap">Panasonic Energy</Badge>
+              <Badge variant="outline" className="whitespace-nowrap">BAE Systems</Badge>
+              <Badge variant="outline" className="whitespace-nowrap">FinIQ Consulting</Badge>
+              <Badge variant="outline" className="whitespace-nowrap">Mitacs Globalink - Canada</Badge>
+              <Badge variant="outline" className="whitespace-nowrap">Bayer Crop Science</Badge>
             </div>
           </div>
         </div>
