@@ -31,14 +31,14 @@ export default function Index() {
         <div className="absolute inset-0 -z-10 [background:radial-gradient(60rem_60rem_at_40%_-10%,hsl(var(--primary)/0.12),transparent)]" />
         <div className="container py-16 md:py-24">
           <div className="grid gap-8 md:gap-16 md:grid-cols-2 md:items-start">
-            <div className="md:pr-8">
+            <div className="flex flex-col md:pr-8">
               <div className="flex flex-wrap items-center gap-3 mb-6">
                 <Badge variant="secondary">Graduating May 2026</Badge>
               </div>
               <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight md:whitespace-nowrap">
                 Paridha Talmale
               </h1>
-              <p className="mt-4 text-lg md:text-xl text-muted-foreground max-w-2xl">
+              <p className="mt-4 text-lg md:text-xl text-muted-foreground max-w-[780px] md:max-w-2xl mx-auto md:mx-0">
                 Master's in Engineering Management at Purdue (GPA 3.83). I drive
                 innovation at the intersection of product, data, and
                 operations—turning insights into impact through cross-functional
