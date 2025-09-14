@@ -36,6 +36,15 @@ jobs:
       - name: Create 404.html for SPA routing
         run: cp dist/spa/index.html dist/spa/404.html
         
+      - name: Debug - List build output
+        run: |
+          echo "Contents of dist/spa:"
+          ls -la dist/spa/
+          echo "Contents of dist/spa/assets:"
+          ls -la dist/spa/assets/ || echo "No assets directory"
+          echo "First few lines of index.html:"
+          head -10 dist/spa/index.html
+        
       - name: Setup Pages
         uses: actions/configure-pages@v4
         
@@ -43,6 +52,11 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: './dist/spa'
+          
+      - name: Debug - Verify artifact
+        run: |
+          echo "Verifying artifact contents:"
+          find dist/spa -type f -name "*.html" -o -name "*.js" -o -name "*.css" | head -10
 
   deploy:
     environment:
