@@ -46,9 +46,9 @@ export default function Index() {
                 leadership and execution.
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
-                <a href={RESUME_URL} target="_blank" rel="noreferrer noopener">
+                {/* <a href={RESUME_URL} target="_blank" rel="noreferrer noopener">
                   <Button size="lg">Download Resume</Button>
-                </a>
+                </a> */}
                 <a
                   href={LINKEDIN_URL}
                   target="_blank"
