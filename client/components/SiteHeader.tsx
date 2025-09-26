@@ -52,9 +52,9 @@ export function SiteHeader() {
               <span className="hidden md:inline">LinkedIn</span>
             </Button>
           </a>
-          <a href={RESUME_URL} target="_blank" rel="noreferrer noopener">
+          {/* <a href={RESUME_URL} target="_blank" rel="noreferrer noopener">
             <Button>Download Resume</Button>
-          </a>
+          </a> */}
         </div>
       </div>
     </header>
